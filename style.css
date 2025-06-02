@@ -72,3 +72,28 @@ button:hover {
 .contact-item button {
   margin-right: 10px;
 }
+@media (max-width: 600px) {
+  .container {
+    padding: 10px;
+  }
+
+  .title h1 {
+    font-size: 1.5rem;
+  }
+
+  .btn-wrap button,
+  #search,
+  .form-group input {
+    font-size: 0.9rem;
+  }
+
+  .contact-item {
+    font-size: 0.9rem;
+  }
+
+  .contact-item button {
+    margin-top: 5px;
+    display: inline-block;
+    width: 48%;
+  }
+}
